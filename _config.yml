@@ -44,11 +44,11 @@ index:
   excerpt_link: Read More  
 
 close_aside: true  #close sidebar in post page if true
-mathjax: false      #enable mathjax if true
+mathjax: true      #enable mathjax if true
 
 ### Creative Commons License Support, see http://creativecommons.org/ 
 ### you can choose: by , by-nc , by-nc-nd , by-nc-sa , by-nd , by-sa , zero
-creative_commons: none
+creative_commons: by-nc-sa
 
 #### Author information
 author:
@@ -71,7 +71,7 @@ author:
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  aside: false     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
@@ -97,11 +97,12 @@ jiathis:
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:        ## e.g. UA-46321946-2 your google analytics ID.
-  site:      ## e.g. wuchong.me your google analytics site or set the value as auto.
+  enable: true
+  id: UA-51332400-2       ## e.g. UA-46321946-2 your google analytics ID.
+  site:  youngshook.com    ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
+
 baidu_tongji:
   enable: true
   sitecode: 510ec30da4f937fce547a5d83070fa4b ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
